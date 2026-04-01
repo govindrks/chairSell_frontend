@@ -34,7 +34,7 @@ function HomePage({
     <>
       <section className="topbar">
         <section className="intro-panel">
-          <p className="eyebrow">Chair Atelier</p>
+          <p className="eyebrow">Prince Chair</p>
           <h1>Simple, classy seating for every focused corner.</h1>
           <p className="intro-copy">
             A refined chair storefront built around your reference images, with
