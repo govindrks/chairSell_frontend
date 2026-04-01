@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom'
 import {
   CartIcon,
   EmptyState,
-  formatCurrency,
   HeartIcon,
   PanelHeader,
 } from '../components/storefront'
+import { formatCurrency } from '../utils/storefront'
 
 function WishlistPage({
   wishlistProducts,

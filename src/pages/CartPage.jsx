@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom'
 import {
   CartIcon,
   EmptyState,
-  formatCurrency,
   PanelHeader,
   QuantityControl,
   TrashIcon,
 } from '../components/storefront'
+import { formatCurrency } from '../utils/storefront'
 
 function CartPage({
   cartProducts,

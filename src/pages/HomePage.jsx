@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom'
 import {
   CartIcon,
   EmptyState,
-  formatCurrency,
-  getDiscount,
   HeartIcon,
   PanelHeader,
   PreviewItem,
@@ -12,6 +10,7 @@ import {
   SparkIcon,
   StatCard,
 } from '../components/storefront'
+import { formatCurrency, getDiscount } from '../utils/storefront'
 
 function HomePage({
   products,
