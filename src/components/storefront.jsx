@@ -207,7 +207,7 @@ export function Masthead({ wishlistCount, cartCount }) {
           <LogoIcon />
         </span>
         <div className="brand-copy">
-          <span className="brand-name">Chair Atelier</span>
+          <span className="brand-name">Prince Chair</span>
           <span className="brand-tag">Simple living, refined seating</span>
         </div>
       </Link>
